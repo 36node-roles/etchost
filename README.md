@@ -22,6 +22,15 @@ Including an example of how to use your role (for instance, with variables passe
       roles:
          - { role: username.rolename, x: 42 }
 
+## Develop guide
+
+Link to local installed role for convenience.
+
+```
+rm -rf /Users/zzs/.ansible/roles/36node.etchost
+ln -s $PWD /Users/zzs/.ansible/roles/36node.etchost
+```
+
 ## License
 
 BSD
