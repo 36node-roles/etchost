@@ -27,8 +27,8 @@ Including an example of how to use your role (for instance, with variables passe
 Link to local installed role for convenience.
 
 ```
-rm -rf /Users/zzs/.ansible/roles/36node.etchost
-ln -s $PWD /Users/zzs/.ansible/roles/36node.etchost
+rm -rf ~/.ansible/roles/36node.etchost
+ln -s $PWD ~/.ansible/roles/36node.etchost
 ```
 
 ## License
