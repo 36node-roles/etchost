@@ -1,3 +1,6 @@
 ---
+state: present
+
 cluster_name: cluster.local
 delegate_node: localhost
+etchost_state: "{{ state }}"

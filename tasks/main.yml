@@ -7,7 +7,7 @@
     dest: "/etc/hosts"
     regexp: ".*\t{{ inventory_hostname }}.{{ domain }}\t{{ inventory_hostname }}.{{ cluster_name }}"
     line: "{{ ansible_host }}\t{{ inventory_hostname }}.{{ domain }}\t{{ inventory_hostname }}.{{ cluster_name }}"
-    state: present
+    state: "{{ etchost_state }}"
     backup: no
   delegate_to: "{{ delegate_node }}"
   tags: etchosts
